@@ -1,0 +1,29 @@
+safe-teleport: true
+cooldown: 10
+max-tries: 1
+max-vanilla-radius: 4096
+unsafe-blocks:
+  - "BEDROCK"
+  - "FIRE"
+  - "LAVA"
+  - "MAGMA"
+  - "WATER"
+  - "STATIONARY_WATER"
+  - "SIGN"
+  - "SIGN_POST"
+  - "WALL_SIGN"
+  - "VINE"
+  - "STRING"
+  - "GOLD_PLATE"
+  - "IRON_PLATE"
+  - "STONE_PLATE"
+  - "WOOD_PLATE"
+  - "FENCE_GATE"
+  - "PORTAL"
+  - "ENDER_PORTAL"
+
+messages:
+  teleport-success: "[Dice] Вы были телепортированы на $distanceTeleported блок(-ов)"
+  safespot-not-found: "[Dice] Не удалось найти безопасное место для телепортации :("
+  cooldown: "[Dice] Вы можете использовать команду только раз в $cooldown секунд. Попробуйте снова через $timeLeft секунд"
+  onjoin-rtp: "[Dice] Вы были телепортированы в случайное место, когда вошли на сервер"
